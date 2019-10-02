@@ -371,3 +371,16 @@
     margin-right: 0;
   }
 }
+
+
+
+
+/* 自定义 */
+.journal-info a img {
+  height: 248px !important;
+}
+
+.journal-info a img:hover {
+  height: 248px !important;
+  opacity: 0.8;
+}

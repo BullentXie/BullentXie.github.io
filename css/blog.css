@@ -143,3 +143,21 @@ blockquote {
   border: none;
   border-left: 4px solid #b8a07e;
 }
+
+
+
+
+
+
+
+/* 自定义 */
+.blog-post-big {
+  /* height: 200px !important; */
+  width: 100% !important;
+}
+
+.pic-in img {
+  /* margin-left: 5px !important; */
+  margin-right: 5px !important;
+  width: 100%;
+}

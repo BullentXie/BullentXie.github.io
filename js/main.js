@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["中华人民共和国"],
+      strings: ["重庆大学材料学院"],
       typeSpeed: 100,
       loop: true,
     });
