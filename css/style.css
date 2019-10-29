@@ -634,3 +634,11 @@ nav ul li a {
 .header-content p {
   color: black;
 }
+
+.journal-txt h4 a{
+  height: 48px;
+  overflow: hidden;
+}
+.all a img {
+  height: 217px;
+}
