@@ -86,6 +86,8 @@ $(document).ready(function() {
   });
 
 
+
+
   // ========================================================================= //
   //  Owl Carousel Services
   // ========================================================================= //
@@ -115,6 +117,7 @@ $(document).ready(function() {
   $('#portfolio-flters li').on( 'click', function() {
     $("#portfolio-flters li").removeClass('filter-active');
     $(this).addClass('filter-active');
+    $(".all").removeClass('unShow');
 
     portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
@@ -155,3 +158,5 @@ $(document).ready(function() {
   magnifPopup();
 
 });
+
+
