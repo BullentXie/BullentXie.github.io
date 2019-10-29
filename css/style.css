@@ -647,3 +647,15 @@ nav ul li a {
 .unShow {
   display: none;
 }
+
+
+/* 评论框样式 */
+.big-commentBox{
+  background-color: #e4e4e4;
+  /* height: 200px; */
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
