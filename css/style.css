@@ -659,3 +659,23 @@ nav ul li a {
   font-size: 20px;
   padding: 20px;
 }
+
+
+.study-img {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.study-img :hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.study-img img{
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.cquStudy-text {
+  margin-top: 25px;
+}

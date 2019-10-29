@@ -122,6 +122,10 @@ $(document).ready(function() {
     portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
 
+  $(".study-img").on( 'click', function() {
+    window.open("http://u5149627.viewer.maka.im/k/VOOXYHFAW5149627")
+  });
+
 
   // ========================================================================= //
   //  magnificPopup
