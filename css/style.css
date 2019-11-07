@@ -693,3 +693,24 @@ nav ul li a {
 .pic-down {
   margin-top: 10px !important;
 }
+
+.popup-img img:hover {
+  opacity: 0.8;
+}
+
+.journal-info a img {
+  border-radius: 5px;
+  /* border-style: groove;
+  border-width: 5px; */
+}
+
+.journal-info a img:hover {
+  /* border-style: ridge; */
+  box-shadow: 7px 7px 7px rgba(0,0,0,.4);
+
+  /*考虑浏览器兼容性*/
+
+  -moz-box-shadow: 7px 7px 7px rgba(0,0,0,.4);
+
+  -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,.4);
+}
