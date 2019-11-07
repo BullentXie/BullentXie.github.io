@@ -679,3 +679,17 @@ nav ul li a {
 .cquStudy-text {
   margin-top: 25px;
 }
+
+.popup-img img {
+  box-shadow: 7px 7px 7px rgba(0,0,0,.4);
+
+  /*考虑浏览器兼容性*/
+
+  -moz-box-shadow: 7px 7px 7px rgba(0,0,0,.4);
+
+  -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,.4);
+}
+
+.pic-down {
+  margin-top: 10px !important;
+}
